@@ -507,7 +507,44 @@ function natural(){
 }
 
 
+//Se citește un număr natural n. Să se determine câți divizori pari are acest număr.
 
+
+function divizori(){
+
+    let n = prompt("introduceti un numar");
+    n = +n;
+    let pari=0;
+
+    for(contor=1; contor<=n; contor++){
+
+        if(n%contor==0 && contor%2==0){
+
+            pari++;
+        }
+    };
+
+    return pari;
+}
+
+
+
+
+//Se dă un număr natural n. Calculați pătratul celui mai mic divizor propriu al său.
+
+function patrat(){
+
+    let n = prompt("introduceti un numar");
+    n = +n;
+
+    for(contor=1; contor<=n; contor++){
+
+        if(n%contor == 0){
+
+            
+        }
+    }
+}
 
 
 
