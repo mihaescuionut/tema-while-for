@@ -479,7 +479,32 @@ function ultimaCifra(numar){
 }
 
 
+//Se citește un număr natural n. Să se determine suma divizorilor săi.
 
+
+
+function natural(){
+
+    let n = prompt("Introduceti un numar");
+    n = +n;
+    let suma = 0;
+
+    for(contor=1; contor<=n; contor++){
+        
+
+        if(n%contor==0){
+
+           suma = suma+contor;
+
+
+        }
+
+      
+        
+    };
+
+    return suma;
+}
 
 
 
